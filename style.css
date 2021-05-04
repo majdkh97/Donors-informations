@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+table, th, td {
+    border: 1px solid black;
+    
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('donate-background.jpg');
+    
+    
+}
+
+
+header{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    font-size:x-large;
+}
+header h1 {
+    padding-top: 20px;
+}
+
+main form{
+    background-color: rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    margin-top: 100px;
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+main form input,select,button{
+    float:right;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px; 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding-top: 15px;
+}
